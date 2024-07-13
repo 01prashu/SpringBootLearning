@@ -1,0 +1,19 @@
+<!DOCTYPE html >
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<footer >
+	
+	<div>This is first footer</div>
+	<div th:include="footer::footer1">
+		<h2>Facebook</h2>
+		<h2>Instagram</h2>
+		<h2>Twitter</h2>
+	</div>
+
+</footer>
+</body>
+</html>

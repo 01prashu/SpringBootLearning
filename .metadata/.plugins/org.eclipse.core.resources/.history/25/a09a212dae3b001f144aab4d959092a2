@@ -1,0 +1,22 @@
+package com.api.test.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.api.test.entities.Book;
+
+@RestController
+public class BookController {
+	
+	@GetMapping("/books")
+	public ArrayList<Book> getbooks()
+	{
+		ArrayList<Book>BookList = new ArrayList<>();
+		BookList.add(new Book(23,"The foundation c++" , "xyz"));
+		BookList.add(new Book(34,"The start Python" , "ytrs"));
+		BookList.add(new Book(45, "The ancient" ,"jdfhd"));
+		return BookList;
+	}
+}

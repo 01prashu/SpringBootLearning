@@ -1,0 +1,5 @@
+package com.inheriting.test.entities;
+
+public class ContactData {
+
+}

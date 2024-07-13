@@ -1,0 +1,5 @@
+package com.relationship.test.entities;
+
+public class File {
+
+}

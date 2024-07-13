@@ -1,0 +1,23 @@
+package com.api.crud.controllers;
+
+import java.util.ArrayList;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.api.crud.entities.Employee;
+
+@RestController
+public class EmployeeController {
+	ArrayList<Employee>empList= new ArrayList<>();
+	public EmployeeController() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@GetMapping("/employee")
+	public ArrayList<Employee>getEmps()
+	{
+		empList.add(new Employee(12,"tudf","ierei"));
+		empList.add()
+	}
+}

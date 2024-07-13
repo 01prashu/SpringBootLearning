@@ -1,0 +1,5 @@
+package com.relationship.test.repository;
+
+public interface BookRepository {
+
+}

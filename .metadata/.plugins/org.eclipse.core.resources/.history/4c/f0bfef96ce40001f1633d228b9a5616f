@@ -1,0 +1,5 @@
+package com.inheriting.test.controller;
+
+public class PageController {
+
+}

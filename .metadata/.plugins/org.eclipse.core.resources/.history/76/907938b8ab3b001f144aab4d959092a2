@@ -1,0 +1,5 @@
+package com.api.test.controllers.entities;
+
+public class Book {
+
+}
